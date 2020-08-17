@@ -2,13 +2,13 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.macro.mall</groupId>
-	<artifactId>mall-admin</artifactId>
+	<groupId>com.apple.mall</groupId>
+	<artifactId>mall-mbg</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>mall-admin</name>
-	<description>mall-admin project for mall</description>
+	<name>mall-mbg</name>
+	<description>mall-mbg project for mall</description>
 
 	<parent>
 		<groupId>com.apple.mall</groupId>
@@ -19,31 +19,24 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.apple.mall</groupId>
-			<artifactId>mall-mbg</artifactId>
+			<artifactId>mall-common</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.apple.mall</groupId>
-			<artifactId>mall-security</artifactId>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper-spring-boot-starter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.aliyun.oss</groupId>
-			<artifactId>aliyun-sdk-oss</artifactId>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>io.minio</groupId>
-			<artifactId>minio</artifactId>
+			<groupId>org.mybatis.generator</groupId>
+			<artifactId>mybatis-generator-core</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>jakarta.validation</groupId>
-			<artifactId>jakarta.validation-api</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+
 </project>

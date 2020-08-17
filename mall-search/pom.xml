@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.apple.mall</groupId>
-	<artifactId>mall-portal</artifactId>
+	<artifactId>mall-search</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>mall-portal</name>
-	<description>mall-portal project for mall</description>
+	<name>mall-search</name>
+	<description>mall-search project for mall</description>
 
 	<parent>
 		<groupId>com.apple.mall</groupId>
@@ -19,11 +19,11 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.macro.mall</groupId>
+			<groupId>com.apple.mall</groupId>
 			<artifactId>mall-mbg</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.macro.mall</groupId>
+			<groupId>com.apple.mall</groupId>
 			<artifactId>mall-security</artifactId>
 		</dependency>
 		<!--mongodb依赖配置-->
